@@ -5,7 +5,7 @@ pipeline {
         stage('build'){
             steps{
                 script{
-                    app = docker.build("dewaniadi/Dashboard")
+                    app = docker.build("dewaniadi/dashboard")
                     docker.withRegistry('', 'docker-hub'){
                         app.push("${env.BUILD_NUMBER}")
                     }
