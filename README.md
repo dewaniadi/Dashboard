@@ -6,3 +6,5 @@ Dash abstracts away all of the technologies and protocols required to build an i
 
 Screenshot for the app in demo :
 
+![Alt text](app_demo.png?raw=true "FIFA-Dashboard")
+
